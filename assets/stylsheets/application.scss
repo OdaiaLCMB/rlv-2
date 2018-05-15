@@ -1,0 +1,17 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+// set if you're also including font-awesome
+$fa-font-path: "~font-awesome/fonts";
+
+// the ~ allows you to reference things in node_modules
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// Your CSS partials
+@import "layouts/index";
+@import "components/index";
+@import "pages/index";
